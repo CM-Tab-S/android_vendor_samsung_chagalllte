@@ -22,17 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/vendor/firmware/bcm4350_A0.hcd:system/vendor/firmware/bcm4350_A0.hcd \
     vendor/samsung/chagalllte/proprietary/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0184.0286_Chagall_WIFI_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4354_003.001.012.0184.0286_Chagall_WIFI_ORC.hcd \
     vendor/samsung/chagalllte/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/samsung/chagalllte/proprietary/media/battery_cover.spi:system/media/battery_cover.spi \
-    vendor/samsung/chagalllte/proprietary/media/battery_error.spi:system/media/battery_error.spi \
-    vendor/samsung/chagalllte/proprietary/media/battery_low.spi:system/media/battery_low.spi \
-    vendor/samsung/chagalllte/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
-    vendor/samsung/chagalllte/proprietary/media/battery_temperature_limit.spi:system/media/battery_temperature_limit.spi \
-    vendor/samsung/chagalllte/proprietary/media/dock_error.spi:system/media/dock_error.spi \
-    vendor/samsung/chagalllte/proprietary/media/incompatible_charger.spi:system/media/incompatible_charger.spi \
-    vendor/samsung/chagalllte/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
-    vendor/samsung/chagalllte/proprietary/media/percentage.spi:system/media/percentage.spi \
-    vendor/samsung/chagalllte/proprietary/media/wave_loop.spi:system/media/wave_loop.spi \
-    vendor/samsung/chagalllte/proprietary/media/wireless_left.spi:system/media/wireless_left.spi \
     vendor/samsung/chagalllte/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/chagalllte/proprietary/lib/libak09911c.so:system/lib/libak09911c.so \
     vendor/samsung/chagalllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
@@ -80,10 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/chagalllte/proprietary/etc/gps.xml:system/etc/gps.xml \
     vendor/samsung/chagalllte/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/samsung/chagalllte/proprietary/bin/lpm:system/bin/lpm \
-    vendor/samsung/chagalllte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
-    vendor/samsung/chagalllte/proprietary/lib/libmaet.so:system/lib/libmaet.so \
-    vendor/samsung/chagalllte/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     vendor/samsung/chagalllte/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
     vendor/samsung/chagalllte/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     vendor/samsung/chagalllte/proprietary/vendor/firmware/setfile_6b2_eeprom.bin:system/vendor/firmware/setfile_6b2_eeprom.bin \
@@ -129,4 +114,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
     vendor/samsung/chagalllte/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/samsung/chagalllte/proprietary/sbin/sswap:root/sbin/sswap \
-    vendor/samsung/chagalllte/proprietary/sbin/cbd:root/sbin/cbd 
+    vendor/samsung/chagalllte/proprietary/sbin/cbd:root/sbin/cbd
