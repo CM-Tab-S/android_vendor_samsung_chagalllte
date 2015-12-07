@@ -105,4 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/etc/wifi/nvram_net.txt_4354_a1:system/etc/wifi/nvram_net.txt_4354_a1 \
     vendor/samsung/chagalllte/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
     vendor/samsung/chagalllte/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    vendor/samsung/chagalllte/proprietary/sbin/sswap:root/sbin/sswap
+    vendor/samsung/chagalllte/proprietary/sbin/sswap:root/sbin/sswap \
+    vendor/samsung/chagalllte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
+    vendor/samsung/chagalllte/proprietary/sbin/cbd:root/sbin/cbd
